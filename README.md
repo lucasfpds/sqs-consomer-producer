@@ -1,12 +1,12 @@
 # sqs-consomer-producer
 Exemple of aws connection to sqs producer and cosomer
+<br><br>
+## Instruções do Exercício:
 <br>
-Instruções do Exercício:
-<br>
-1-Crie um serviço de mensagens em fila usando a Amazon SQS.
+### 1-Crie um serviço de mensagens em fila usando a Amazon SQS.
 Serviço criado, no repositório está o serviço de producer e consomer.
 
-2-Compare e descreva as diferenças e o objetivo entre a Amazon SQS e a Amazon SNS.
+### 2-Compare e descreva as diferenças e o objetivo entre a Amazon SQS e a Amazon SNS.
 
 Podemos dizer que os serviços de SNS e SQS da AWS são mensageiras mas cada um com algumas particularidades, sendo o SNS responsável por receber mensagens 
 e distribuí-las diretamente para vários outros serviços diversos como email, sms ou qualquer outro serviço que possa consumir essa mensagem como o próprio 
