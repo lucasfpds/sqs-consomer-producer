@@ -43,6 +43,7 @@ public class Producer implements IProducer {
     public static void sendMessage(SqsClient sqsClient, String queueUrl, String message) {
         SendMessageRequest sendMsgRequest = SendMessageRequest.builder()
                 .queueUrl(queueUrl)
+                .messageGroupId(System.getenv("QUEUE_GROUP_ID"))
                 .messageBody(message)
                 .build();
         sqsClient.sendMessage(sendMsgRequest);
